@@ -9,6 +9,7 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
 # <a id="contents"></a>Contents <!-- omit in toc -->
 - [Individual tasks and reflection](#contents)
   - [Datacamp certificates](#datacamp-certificates)
+  - [Reflection-and-evaluation](#Reflection-and-evaluation)
 
 # <a id="Individual tasks and reflection"></a>Individual tasks and reflection <!-- omit in toc -->
 ## <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
@@ -35,4 +36,6 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
 * Exploratory Data Analysis in Python  
   [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/4aa6f96f4f810ec86df8f51fb2c00712cdb61a42)
 * Cleaning Data in Python  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/cab5e798e60d4761baedec98cb38b88ba5152e02)
+  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/cab5e798e60d4761baedec98cb38b88ba5152e02)  
+  
+## <a id="Reflection-and-evaluation"></a>Reflection-and-evaluation <!-- omit in toc -->
