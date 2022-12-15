@@ -1,2 +1,2 @@
-# This is all for the FoodBoost project
-So here I created some files with my gravity generating genius
+# Foodboost project
+Our main goal with the FoodBoost project was to predict if someone would like certain 
