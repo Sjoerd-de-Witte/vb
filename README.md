@@ -39,3 +39,4 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
   [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/cab5e798e60d4761baedec98cb38b88ba5152e02)  
   
 ## <a id="reflection-and-evaluation"></a>Reflection-and-evaluation <!-- omit in toc -->
+During this minor I 
