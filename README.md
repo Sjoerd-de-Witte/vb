@@ -39,4 +39,10 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
   [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/cab5e798e60d4761baedec98cb38b88ba5152e02)  
   
 ## <a id="reflection-and-evaluation"></a>Reflection-and-evaluation <!-- omit in toc -->
-During this minor I 
+### <a id="reflection-on-own"></a>Reflection on own contribution <!-- omit in toc -->
+At the beginning of this minor first tried to connect and bond with the group as much as possible to come up with a specific role for me.
+Overall it was easy to bond with the group since everybody over open about there weaknesses and strength.
+
+During the Foodboost project I definitly wanted to contribute to the project with a mathematical part for the project. So I came up with an
+Linear Model to scedule every predicted meal based on the prediction system the group had made. This model filled in the scedule based on a maximum 
+amount of calories and separate predicted lists for meals and dinners. 
