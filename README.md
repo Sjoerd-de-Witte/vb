@@ -43,6 +43,30 @@ At the beginning of this minor first tried to connect and bond with the group as
 Overall it was easy to bond with the group since everybody over open about there weaknesses and strength.
 
 During the Foodboost project I definitly wanted to contribute to the project with a mathematical part for the project. So I came up with an
-Linear Model to scedule every predicted meal based on the prediction system the group had made. This model filled in the scedule based on a maximum 
+Linear Programming model to scedule every predicted meal based on the prediction system the group had made. This model filled in the scedule based on a maximum 
 amount of calories and separate predicted lists for meals and dinners. For the maximum amount of calories I contributed a little bit to the research
-so we knew what would be the maximum amount of calories for the 
+so we knew what would be the maximum amount of calories for the Linear Programming model.
+
+For the COFANO project I mainly was focussing on collecting knowledge about reinforcement lreaning. I did this using Youtube tutorials and documentation of
+different libraries needed. This way I could provide usefull knowledge to the team so they could make convincing choices during the making of the final model. I also could share this knowledge with other research groups of the minor.  
+
+### **Making a reinforcement learning model by myself** 
+#### **Situation** 
+To gain knowlegde bout reinforcement learning and contribute to the project, we all had to make a reinforcement learning model by our own from scratch with our own unique method.  
+
+#### **Tast** 
+My task was to make an reinforcement learning model using a [tutorial] I found on youtube, with the nessecary [documentation].  
+
+#### **Action**
+I watched the whole 3 hour tutorial on youtube to gain information about the used library. Then I made a custom environment on a easy problem that was demonstrated 
+in the Youtube tutorial. At last I changed the model to fit he COFANO problem.  
+
+#### **Result**
+The result of my work was a working model that could place containers on places where there was no container. Also I gained very much knowledge about the used
+library. This was of great value to the work of my teammates and other groups of the minor.  
+
+#### **Reflection**
+I am glad that I made a working model that could place containers on empty spaced. The only thing I regret was nog really making an al tweakable agent where
+I could finetune the model even further.  
+
+## Personal Learning Objectives
