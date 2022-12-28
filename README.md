@@ -11,6 +11,7 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
   - [Datacamp certificates](#datacamp-certificates)
   - [Personel contribution to the projects](#personel-contribution-to-the-projects)
   - [Personel learning objectives](#personel-learning-objectives)
+  - 
 
 # <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
 * Introduction to Python  
@@ -73,6 +74,21 @@ I could finetune the model even further.
 When I started with the minor, I realy wanted to get an introduction to machine learning and neural networks and how to use them in diffenet situations.
 I always was very drawn to the concept of machine learning en neural networks like making predictions, self training computers and recognition. for around half a year I had a book where looked into once in a while, but I had no experience what so ever.
 
-During this minor I definitely learnied a lot of things about machine learning and neural networks. I learned the basics of fitting and defining a model, data cleaning/preperation and background knowledge of how such models work. I am also glad that I can do all of this without or with minimal help and use them for my own projects at home or later at work.
+During this minor I definitely learnied a lot of things about machine learning and neural networks. I learned the basics of fitting and defining a model, data cleaning/preperation and background knowledge of how such models work. I am also glad that I can do all of this without or with minimal help and use them for my own projects at home or later at work. Below I will reflect on hyperparametertuning the model.  
 
+### **Hyperparametertuning the used model** 
+#### **Situation** 
+The group made a model and wanted to optimize the results so hyperparameter tuning was needed to make sure all the parameters where correctly defined.
+
+#### **Tast** 
+Using a study, my tast was to find the optimal hypermarameter settings using the optuna hyperparameter tuning method.
+
+#### **Action**
+The first thing I did was following machine learning lessons of the fourth year of my study. In the lessons, different methods of hyperparametertuning where explained and I tried them out for myself so I could get a better undertanding of the optuna library and how to use it. Then when I had enough information, I applied the method to our model and used it to optimize the results.
+
+#### **Result**
+At the end, we got the right hyperparameters and the model eventually worked a little bit better.
+
+#### **Reflection**
+It maybe felt like cheating but I was glad that I followed the lectures of my study. This way I gained a lot of knowledge about how the hyperparameters influence the model and how I could optimize them to my demand.
 
