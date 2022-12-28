@@ -11,8 +11,7 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
   - [Datacamp certificates](#datacamp-certificates)
   - [Reflection-and-evaluation](#reflection-and-evaluation)
 
-# <a id="Individual tasks and reflection"></a>Individual tasks and reflection <!-- omit in toc -->
-## <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
+# <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
 * Introduction to Python  
   [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/a0454797c8ede86d8947317d151dad4d9d4b299f)
 * Intermediate Python  
@@ -45,4 +44,5 @@ Overall it was easy to bond with the group since everybody over open about there
 
 During the Foodboost project I definitly wanted to contribute to the project with a mathematical part for the project. So I came up with an
 Linear Model to scedule every predicted meal based on the prediction system the group had made. This model filled in the scedule based on a maximum 
-amount of calories and separate predicted lists for meals and dinners. 
+amount of calories and separate predicted lists for meals and dinners. For the maximum amount of calories I contributed a little bit to the research
+so we knew what would be the maximum amount of calories for the 
