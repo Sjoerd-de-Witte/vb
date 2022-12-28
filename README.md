@@ -9,7 +9,8 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
 # <a id="contents"></a>Contents <!-- omit in toc -->
 - [Individual tasks and reflection](#contents)
   - [Datacamp certificates](#datacamp-certificates)
-  - [Reflection-and-evaluation](#reflection-and-evaluation)
+  - [Personel contribution to the projects](#personel-contribution-to-the-projects)
+  - [Personel learning objectives](#personel-learning-objectives)
 
 # <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
 * Introduction to Python  
@@ -37,8 +38,7 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
 * Cleaning Data in Python  
   [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/cab5e798e60d4761baedec98cb38b88ba5152e02)  
   
-## <a id="reflection-and-evaluation"></a>Reflection-and-evaluation <!-- omit in toc -->
-### <a id="reflection-on-own"></a>Reflection on own contribution <!-- omit in toc -->
+## <a id="personel-contribution-to-the-projects"></a>Personel contribution to the projects 
 At the beginning of this minor first tried to connect and bond with the group as much as possible to come up with a specific role for me.
 Overall it was easy to bond with the group since everybody over open about there weaknesses and strength.
 
@@ -69,4 +69,5 @@ library. This was of great value to the work of my teammates and other groups of
 I am glad that I made a working model that could place containers on empty spaced. The only thing I regret was nog really making an al tweakable agent where
 I could finetune the model even further.  
 
-## Personal Learning Objectives
+## <a id="personel-learning-objectives"></a>Personel learning objectives
+
