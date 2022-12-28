@@ -48,7 +48,7 @@ amount of calories and separate predicted lists for meals and dinners. For the m
 so we knew what would be the maximum amount of calories for the Linear Programming model.
 
 For the COFANO project I mainly was focussing on collecting knowledge about reinforcement lreaning. I did this using Youtube tutorials and documentation of
-different libraries needed. This way I could provide usefull knowledge to the team so they could make convincing choices during the making of the final model. I also could share this knowledge with other research groups of the minor.  
+different libraries needed. This way I could provide usefull knowledge to the team so they could make convincing choices during the making of the final model. I also could share this knowledge with other research groups of the minor. Below I will reflect on the making of my own reinforcement learning model.  
 
 ### **Making a reinforcement learning model by myself** 
 #### **Situation** 
