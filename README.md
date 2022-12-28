@@ -10,7 +10,7 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
 - [Individual tasks and reflection](#contents)
   - [Datacamp certificates](#datacamp-certificates)
   - [Personel contribution to the projects](#personel-contribution-to-the-projects)
-  - [Personel learning objectives](#personel-learning-objectives)
+  - [Evaluation on group](#evaluation-on-group)
   - 
 
 # <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
@@ -92,3 +92,4 @@ At the end, we got the right hyperparameters and the model eventually worked a l
 #### **Reflection**
 It maybe felt like cheating but I was glad that I followed the lectures of my study. This way I gained a lot of knowledge about how the hyperparameters influence the model and how I could optimize them to my demand.
 
+## <a id="evaluation-on-group"></a>Evaluation on group
