@@ -103,7 +103,7 @@ The first 12 weeks the group gathered as a whole at the THUAS at The Hague on Mo
 
 <details>
 <summary>Trello board example</summary>
-<img src="Imgages/Trello board.png" />
+<img src="Images/Trello board image.png" />
 </details>
 
 ### **Working method** 
