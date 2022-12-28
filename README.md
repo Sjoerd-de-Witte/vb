@@ -70,4 +70,9 @@ I am glad that I made a working model that could place containers on empty space
 I could finetune the model even further.  
 
 ## <a id="personel-learning-objectives"></a>Personel learning objectives
+When I started with the minor, I realy wanted to get an introduction to machine learning and neural networks and how to use them in diffenet situations.
+I always was very drawn to the concept of machine learning en neural networks like making predictions, self training computers and recognition. for around half a year I had a book where looked into once in a while, but I had no experience what so ever.
+
+During this minor I definitely learnied a lot of things about machine learning and neural networks. I learned the basics of fitting and defining a model, data cleaning/preperation and background knowledge of how such models work. I am also glad that I can do all of this without or with minimal help and use them for my own projects at home or later at work.
+
 
