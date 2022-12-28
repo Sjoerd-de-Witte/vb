@@ -56,7 +56,7 @@ different libraries needed. This way I could provide usefull knowledge to the te
 To gain knowlegde bout reinforcement learning and contribute to the project, we all had to make a reinforcement learning model by our own from scratch with our own unique method.  
 
 #### **Task** 
-My task was to make an reinforcement learning model using a [tutorial] I found on youtube, with the nessecary [documentation].  
+My task was to make an reinforcement learning model using a [tutorial](https://www.youtube.com/watch?v=Mut_u40Sqz4&t=8980s) I found on youtube, with the nessecary [documentation](https://stable-baselines3.readthedocs.io/en/master/).  
 
 #### **Action**
 I watched the whole 3 hour tutorial on youtube to gain information about the used library. Then I made a custom environment on a easy problem that was demonstrated 
@@ -99,7 +99,12 @@ In the beginning I really had to find my spot within the group. Of course I had 
 
 Most other teammates where of great use. Martti was a beast in programming and a very motivated student till the end. Joanne really kept the group together during the different meetings we had throughout the minor and Eric really came up with brilliant ideas to make sure the project would be a succes. Sefa and Ayrton didn't have much experience with Python so sometimes it was hard for them to keep up. Sefa really did his best with the task he needed to do. He also helped really well when he needed to during the project, despite his non-Python background. Ayrton however felt like he was of less use. unfortunately he didn't say that much and we as a group didn't know if he understanded it all. We often offered him a helping hand but I don't think he ever was willing to use it. which is a shame since he is a great guy.
 
-The first 12 weeks the group gathered as a whole at the THUAS at The Hague on Monday and Wednesdsay. On Thuesday, Thursday Joanne, Eric and I gathered at the THUAS at Delft, and friday we all gathered for the weekly meetings with the teachers at Delft. Monday and Wednessday we had group meetings where we would update the [Trello] board and see the results of each individual. The last 12 weeks we only gathered at the THUAS at The Hague at Monday when there where lectures, but eventually we would spend all days at Delft where we would meet as a whole on Friday before we had the meetings with the teachers. Below I will reflect on a problem I solves within the group using an efficient working method.
+The first 12 weeks the group gathered as a whole at the THUAS at The Hague on Monday and Wednesdsay. On Thuesday, Thursday Joanne, Eric and I gathered at the THUAS at Delft, and friday we all gathered for the weekly meetings with the teachers at Delft. Monday and Wednessday we had group meetings where we would update the Trello board (see example) and see the results of each individual. The last 12 weeks we only gathered at the THUAS at The Hague at Monday when there where lectures, but eventually we would spend all days at Delft where we would meet as a whole on Friday before we had the meetings with the teachers. Below I will reflect on a problem I solves within the group using an efficient working method.  
+
+<details>
+<summary>Trello board example</summary>
+<img src="img/trello.png" />
+</details>
 
 ### **Working method** 
 #### **Situation** 
