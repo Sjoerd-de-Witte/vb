@@ -11,7 +11,7 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
   - [Datacamp certificates](#datacamp-certificates)
   - [Personel contribution to the projects](#personel-contribution-to-the-projects)
   - [Evaluation on group](#evaluation-on-group)
-  - 
+- [The Projects](#the-projects) 
 
 # <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
 * Introduction to Python  
@@ -122,3 +122,4 @@ Theresult is that anyone would work parallel on there own reinforcement learning
 #### **Reflection** 
 I am glad that the idea of working parallel really worked. I am certainly going to use this in future reseaches when I am working in groups.
 
+# <a id="the-projects"></a>The Projects
