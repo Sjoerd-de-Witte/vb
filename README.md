@@ -150,3 +150,9 @@ With question 4 we did research to the different methods used to fit in a schedu
 ### *Evaluation*
 With our research I think we have layed a good basis for a better and more effecient model. I think if someone would pick up this project, there could be a few interesting pick-up points to start:
 
+The first point where there could be made a lot of inprovement is the prediction system. Right now our system consisted of a simple machine learning decisiontree, which does the job but is not really effecient enough. I would recommend researching somewhere in the range of neural networks. I think you could come a far end with using embeddings, which also are used to make recommendation systems for movies.
+
+The second biggest point of improvement would be to make more restictions to the now used Linear Programming model. Right now the model give a diet schedule with more variety in lunches and dishes. It would be a great idea if there would be some research on the different kinds of kitchens around the world and also make it variate in that way. Since now we have a chance of having 7 kinds of pasta every week which makes sure that you will not eat the same dish every night, but not that you variate between different kitchens.
+
+### *Conclusions
+
