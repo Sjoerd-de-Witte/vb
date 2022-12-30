@@ -123,3 +123,26 @@ Theresult is that anyone would work parallel on there own reinforcement learning
 I am glad that the idea of working parallel really worked. I am certainly going to use this in future reseaches when I am working in groups.
 
 # <a id="the-projects"></a>The Projects
+## <a id="foodboost-project"></a>Foodboost project
+### *Task definition*
+In the present day, people are becoming more conscious of what they are eating. This can express itself in eating more enviromental friendly food such as pescatarian, vegetarian and vegan diets. But also in eating more healthy by making fresh and/or boilogical food. Sometimes it can be easy to put together a diet thats fits a person the most, but often it can be a really hard task. The goal of the foodboost project is to make a recommendation system which predicts of someone likes a certain type of food and implement this into a easy to make and maintain diet.
+
+During this project, me and my group members mainly focussed on the a basis for the predicting part of the project and fitting in the predicted dishes into someones diet with in consideration of an nut allergy. To make progress we defined the following research questions:
+
+    With what method can we make a weekly lunch and diner recomendation considering a nut allergy or intolerance, with inconsideration of a combined maximum of 1040 calories for lunch and dinner combined?
+
+    1. ...
+
+    2. ...
+
+    3. ...
+
+With question 1 we ...
+
+With question 2 we ...
+
+With question 3 we ...
+
+### *Evaluation*
+With our research I think we have layed a good basis for a better and more effecient model. I think if someone would pick up this project, there could be a few interesting pick-up points to start:
+
