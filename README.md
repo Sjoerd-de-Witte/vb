@@ -129,19 +129,23 @@ In the present day, people are becoming more conscious of what they are eating. 
 
 During this project, me and my group members mainly focussed on the a basis for the predicting part of the project and fitting in the predicted dishes into someones diet with in consideration of an nut allergy. To make progress we defined the following research questions:
 
-    With what method can we make a weekly lunch and diner recomendation considering a nut allergy or intolerance, with inconsideration of a combined maximum of 1040 calories for lunch and dinner combined?
+    With what method can we make a weekly lunch and diner recomendation considering a nut allergy or intolerance, with inconsideration of a combined average amount of calories for lunch and dinner combined?
 
-    1. ...
+    1. What food can be considered as a nut allergen?
+    
+    2. What is an average amount of calories for lunch and dinner combined?
 
-    2. ...
+    3. What method is used/can be used for predicting if someone likes a lunch or dinner?
 
-    3. ...
+    4. What method can be used to make a diet schedule with as much variety as possible?
 
-With question 1 we ...
+With question 1 we wanted to make sure that we could filter out every lunch/dinner that consisted of ingredients that contained or are a nut allergen. This was a big part of preocessing the data so no food with an nut allergen could be selected during the prediction for a doet schedule.
 
-With question 2 we ...
+With question 2 we wanted to find out how many calories an average person ate during lunch and dinner combined. This would come in handy when we would schedule the predicted lunch and dinners a person would like. We ofcourse wanted this to be a healthy diet, so an maximum amount of calories would be a good restriction.
 
-With question 3 we ...
+With question 3 we wanted to research the different options for a prediction model for our recomendation system.
+
+With question 4 we did research to the different methods used to fit in a schedule with the predicted lunch and dinners. We wanted to make sure to recommend a schedule that has a big variety of lunches and dinners.  
 
 ### *Evaluation*
 With our research I think we have layed a good basis for a better and more effecient model. I think if someone would pick up this project, there could be a few interesting pick-up points to start:
