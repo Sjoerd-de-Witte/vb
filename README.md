@@ -177,7 +177,13 @@ For the predictions we had to deal with a classification problem. So we chose to
 <img src="Images/Foodboost Model comparison.png" />
 </details>
 
-Explain about hyperparameter tuning ....
+The next thing we did was using and optunastudy for hyperparameter tuning to tune the model to achieve a higher precision score:
+
+<details>
+<summary>Optuna study results</summary>
+<img src="Images/Foodboost hyperparameter tuning results.png" />
+</details>
+
 
 #### What method can be used to make a diet schedule with as much variety as possible?
 To schedule the lunches and dinners in a varied way, we used an linear programming model using the `ORTools.linear_solver` library. This model had a total of 4 restrictions.
