@@ -165,8 +165,8 @@ One of the first things we did was searching on the internet for a list or table
 The average amount of the lunch and dinner combined for a day came out te be 1040 Kcal a day. This number was determined after looking at the following graphs and approach them with basic statistics:
 
 <details>
-<summary>Trello board example</summary>
-<img src="Images/Trello board image.png" />
+<summary>Statistical graphs</summary>
+<img src="Images/Foodboost Kcal Graphs.png" />
 </details>
 
 
