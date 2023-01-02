@@ -321,9 +321,9 @@ For the foodboost project we had to make a recommendation system that could reco
 
 For this reason we needed to use a predictive classification model. Due to our inexperience with machine learning at the time, we used the first predictive classification models we could think of:
 
-- Logistic regression
-- Decision tree
-- Random Forrest
+- Logistic regression classifier
+- Decision tree classifier
+- K Nearest Neightbours classifier
 
 In the following notebook I had a contribution to selecting the model by making a small table containing the 3 different models and there `f1_score`, `precision_score`, `recall_score` and `accuracy_score`. 
 
