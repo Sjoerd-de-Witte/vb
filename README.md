@@ -297,3 +297,13 @@ However we didn't use the layout since we decided to begin on a small scale and 
 Using reinforcement learning we didn't realy have to make new data like the dataset we have been given. The only thing we have done is make a random list of high and low priorities (using numbers 1 to 4 ) to simulate a ship. 
 
 ### *Planning*
+During this project we had found a more efficient way of working with Trello. The first thing we did was setting up a more efficient and clear Trello board so we could work this out much more.
+
+We created different kinds of categories within the Trello board so we had an clear understanding of what the project would look like. The second thing we did was assigning someone who was responsable for a certain category. 
+
+Every time we had a group meeting we asked anyone what the status of there task was and emediatly updated the Trello board. Also here, some task had deadlines and other where optional. I am more satisfied with the way we worked with Trello. I think, that the experience of the Foodboost project was a big reason why it worked better this time.
+
+<details>
+<summary>Container Trello board</summary>
+<img src="Images/Foodboost planning trello.png" />
+</details>
