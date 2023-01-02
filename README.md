@@ -219,7 +219,11 @@ Never the less we all had our own tasks and we set the deadline of our tasks on 
 ## <a id="Cofano-container-project"></a>Cofano container project
 ### *Task definition*
 
-...
+At the port of Rotterdam, many ships come and go with there cargo. Shipping is an important part of logistics with many problems left to solve. Cofano is one of the companies who is working on a method to automate container stacking, and solve the container stacking problem. 
+
+Cofano is still researching methods to tackle the container stacking problem and asked us to help them. The main goal of tackeling the container stacking problem is to minimize the steps from moving containers from ship to ship. Every step a container (or better said, reachstacker) takes to move the containers is calles a `move` which we want to minimize. Minimizing these `moves` can help reduce unnecessary costs and delay. 
+
+Our goal is to find a method which Cofano can use to automate the container stacking problem. To do this, we set up a few questions we can awnser to help us find a suitable method for this problem:
 
     With what method can we solve the container stacking problem using only one reachstacker and focussing only on unloading one ship with a random load? 
 
@@ -233,15 +237,15 @@ Never the less we all had our own tasks and we set the deadline of our tasks on 
     
     5. How can we simulate container data?
 
-With question 1 we ....
+With question 1 we wated to orientate on the different possible methods that can help solve the container stacking problem.
 
-With question 2 we ....
+With question 2 we wanted to define the word `move` so we knew what the main goal of cofano was. Also we wanted to define some restrictions for the method were going to use, so the model gives feasable solutions.
 
-With question 3 we ....
+With question 3 we wanted to know the different types of containers, since the cargo can contain different types of conntainers and sizes.
 
-With question 4 we ....
+With question 4 we wanted to know the port layout, so we can fit our model specificly to the situation that Cofano is dealing with.
 
-With question 5 we ....
+With question 5 we wanted to know how we can create our own data, this was a very important part of our research since the Cofano dataset was very confusing.
 
 ### *Evaluation*
 For the container stacking problem we came up with a way to use reinforcement learning to make a layout for unloading the containers onto the dock. However we think there are a couple of good startingpoints for future research to improve this model, since we only got the tip of the iceberg here:
@@ -292,3 +296,4 @@ However we didn't use the layout since we decided to begin on a small scale and 
 #### How can we simulate container data?
 Using reinforcement learning we didn't realy have to make new data like the dataset we have been given. The only thing we have done is make a random list of high and low priorities (using numbers 1 to 4 ) to simulate a ship. 
 
+### *Planning*
