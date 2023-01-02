@@ -231,7 +231,7 @@ Never the less we all had our own tasks and we set the deadline of our tasks on 
 
     4. How is the port layed out?
     
-    5. How can we simulate container data
+    5. How can we simulate container data?
 
 With question 1 we ....
 
@@ -288,3 +288,7 @@ The port layout as follows:
 </details>
 
 However we didn't use the layout since we decided to begin on a small scale and didn't have any time to expand the container zones in our model becuase of finetuning.
+
+#### How can we simulate container data?
+Using reinforcement learning we didn't realy have to make new data like the dataset we have been given. The only thing we have done is make a random list of high and low priorities (using numbers 1 to 4 ) to simulate a ship. 
+
