@@ -14,6 +14,9 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
 - [The Projects](#the-projects) 
   - [Foodboost project](#foodboost-project) 
   - [Cofano container project](#Cofano-container-project)
+- [Predictive analytics](#predictive-analytics) 
+  - [Foodboost model](#Foodboost-predictive-model) 
+  - [Cofano model](#Cofano-container-project)
 
 # <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
 * Introduction to Python  
@@ -216,6 +219,8 @@ Never the less we all had our own tasks and we set the deadline of our tasks on 
 <img src="Images/Foodboost planning trello.png" />
 </details>
 
+[Back to contents](#contents)
+
 ## <a id="Cofano-container-project"></a>Cofano container project
 ### *Task definition*
 
@@ -305,5 +310,32 @@ Every time we had a group meeting we asked anyone what the status of there task 
 
 <details>
 <summary>Container Trello board</summary>
-<img src="Images/Foodboost planning trello.png" />
+<img src="Images/Trello board image.png" />
 </details>
+
+[Back to contents](#contents)
+
+# <a id="predictive-analytics"></a>Predictive analytics <!-- omit in toc -->
+## <a id="Foodboost-predictive-model"></a>Foodboost predictive model
+For the foodboost project we had to make a recommendation system that could recommend a certain variate diet. This problem concisted of a classification problem (in the for of 1, which means yes, and 0 which means no). The dataset we eventually used contained if someone liked a cetain meal. What the name was of the meal and what the ingredients where of that meal. The names in this situation where a string and where not used in the prediction model itself. The other variables where binary variables (like I said earlier). 
+
+For this reason we needed to use a predictive classification model. Due to our inexperience with machine learning at the time, we used the first predictive classification models we could think of:
+
+- Logistic regression
+- Decicion tree
+- Random Forrest
+
+In the following notebook I had a contribution to selecting the model by making a small table containing the 3 different models and there `f1_score`, `precision_score`, `recall_score` and `accuracy_score`. 
+
+<details>
+<summary>Model comparison</summary>
+
+| Model                  | Recall    | Precision| Accuracy | F1 score |
+|------------------------|-----------|----------|----------|----------|
+| Logistic Regression    | 0.769231  | 0.714286 | 0.833333 | 0.660377 |
+| DecisionTreeClassifier | 0.853933  | 0.904762 | 0.808511 | 0.754717 |
+| KNeighborsClassifier   | 0.827586  | 0.857143 | 0.800000 | 0.716981 |
+</details>
+
+With this model comparison. We decided to investigate further on the precision score. This score is mainly foccussing on telling is something is a true positive. This means, in context of our project, that is focusses on predicting that if someone likes it according to the prediction, he really likes in in real life. And also I laid my eyes on the desicion tree classifier, because of the higher Precision score. 
+
