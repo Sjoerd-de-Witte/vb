@@ -279,12 +279,12 @@ The port layout as follows:
 
 <details>
 <summary>Satellite pictures dock</summary>
-<img src="Containers satalite pictures.png" />
+<img src="Images/Containers satalite pictures.png" />
 </details>
 
 <details>
 <summary>Container zone mapping</summary>
-<img src="Containers container mapping.png" />
+<img src="Images/Containers container mapping.png" />
 </details>
 
 However we didn't use the layout since we decided to begin on a small scale and didn't have any time to expand the container zones in our model becuase of finetuning.
