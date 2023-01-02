@@ -174,7 +174,7 @@ For the predictions we had to deal with a classification problem. So we chose to
 
 <details>
 <summary>Model comparison</summary>
-<img src="Foodboost Model comparison" />
+<img src="Images/Foodboost Model comparison.png" />
 </details>
 
 
