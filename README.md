@@ -343,5 +343,5 @@ Further more, I was focussing more on hyperparameter tuning using a optuna study
 
 <details>
 <summary>Optuna study results</summary>
-<img src="Images/Containers satalite pictures.png" />
+<img src="Images/Foodboost optuna study results.png" />
 </details>
