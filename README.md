@@ -278,7 +278,7 @@ We only use one size for a container. which means we don't have to worry about t
 The port layout as follows:
 
 <details>
-<summary>Satellite pictures dock</summary>
+<summary>Satellite pictures</summary>
 <img src="Images/Containers satalite pictures.png" />
 </details>
 
