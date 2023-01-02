@@ -191,7 +191,7 @@ We dit not use any restrictions for maximum amount of calories for lunch and din
 
 <details>
 <summary>Diet schedule</summary>
-<img src="Images/Foodboost diet schedule.png" />
+<img src="Images/Foodboost diet schedule .png" />
 </details>
 
 <details>
