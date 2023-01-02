@@ -16,7 +16,7 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
   - [Cofano container project](#Cofano-container-project)
 - [Predictive analytics](#predictive-analytics) 
   - [Foodboost model](#Foodboost-predictive-model) 
-  - [Cofano model](#Cofano-container-project)
+  - [Cofano model](#Cofano-predictive-model)
 
 # <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
 * Introduction to Python  
@@ -339,9 +339,13 @@ In the following notebook I had a contribution to selecting the model by making 
 
 With this model comparison. We decided to investigate further on the `precision_score`. This score is mainly foccussing on telling is something is a true positive. This means, in context of our project, that is focusses on predicting that if someone likes it according to the prediction, he really likes in in real life. And also I laid my eyes on the desicion tree classifier, because of the higher `precision_score`. 
 
-Further more, I was focussing more on hyperparameter tuning using a optuna study. With the hyperparametertuning, I tuned the 3 most user parameters `max_depth`, `min_samples_leaf` and `n_estimators`.
+Further more, I was focussing more on hyperparameter tuning using a optuna study. With the hyperparametertuning, I tuned the 2 most used parameters `max_depth` and `min_samples_leaf`.
 
 <details>
 <summary>Optuna study results</summary>
-<img src="Images/Foodboost optuna study results.png" />
+<img src="Images/Foodboost hyperparameter tuning results FV.png" />
 </details>
+
+Also I helped with predicting the data. I helped setting up and fitting a decision tree classifier with the chosen hyperparameter settings. which with the rest of the explained code can be checked in the corresponding [Notebook](notebooks/multinomial%20logistic%20regression.ipynb)
+
+## <a id="Cofano-predictive-model"></a>Cofano predictive model
