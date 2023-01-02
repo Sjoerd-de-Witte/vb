@@ -348,6 +348,18 @@ Further more, I was focussing more on hyperparameter tuning using a optuna study
 
 Also I helped with predicting the data. I helped setting up and fitting a decision tree classifier with the chosen hyperparameter settings. which with the rest of the explained code can be checked in the corresponding [notebook](Notebooks/Selecting%20and%20Hyperparameter%20tuning%20model.ipynb).
 
-In the final version I linked the decicion tree model to the linear programming model. I took the initiative to make the liear programming model to further process the predictions of the decision tree model. I manage go generate a feasable outcome with the four restrictions I highlighted earlier. In the final 
+In the final version I linked the decicion tree model to the linear programming model. I took the initiative to make the liear programming model to further process the predictions of the decision tree model. I manage go generate a feasable outcome with the four restrictions I highlighted earlier. In the final [notebook](Notebooks/Final%20model%20Foodboost.ipynb).
+
+The results of the total model:
+
+<details>
+<summary>Diet schedule</summary>
+<img src="Images/Foodboost diet schedule .png" />
+</details>
+
+<details>
+<summary>Lunch and dinner kcal distribution</summary>
+<img src="Images/Foodboost lunch and dinner distribution.png" />
+</details>
 
 ## <a id="Cofano-predictive-model"></a>Cofano predictive model
