@@ -159,7 +159,6 @@ The second biggest point of improvement would be to make more restictions to the
 After 6 weeks we managed to give a awnser to our research question. As explained the research question was devided into 4 subquestions leading to the main awnser.
 
 #### What food can be considered as a nut allergen?
-one of the first things we did was searching on the internet for a list or table of different foods that where concidered a nut allergen. Eventually we came to the conclusion that we would filter out anything that had the word `noot` in it. This on itself is ofcouse is not this accurate, becuase you also would be filtering out words as kokos`noot` and `noot`muskaat. Also we decided to completely remove `pindas` out of the list, so there was no risk for somebody with any form of a nut allergy.
-
+One of the first things we did was searching on the internet for a list or table of different ingredients that where concidered a nut allergen. As we had found different ingredients that contained nuts, we eventually made a list of different kinds of nuts and filter them out. Also we made a `falsePositives` list where we would put in the different kinds of ingredients that did not contain any form of nuts, but in the word itself contained `noot` (i.e. Kokosnoot, Nootmuskaat)
 
 
