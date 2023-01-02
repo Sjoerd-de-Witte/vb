@@ -159,6 +159,14 @@ The second biggest point of improvement would be to make more restictions to the
 After 6 weeks we managed to give a awnser to our research question. As explained the research question was devided into 4 subquestions leading to the main awnser.
 
 #### What food can be considered as a nut allergen?
-One of the first things we did was searching on the internet for a list or table of different ingredients that where concidered a nut allergen. As we had found different ingredients that contained nuts, we eventually made a list of different kinds of nuts and filter them out. Also we made a `falsePositives` list where we would put in the different kinds of ingredients that did not contain any form of nuts, but in the word itself contained `noot` (i.e. Kokosnoot, Nootmuskaat)
+One of the first things we did was searching on the internet for a list or table of different ingredients that where concidered a nut allergen. As we had found different ingredients that contained nuts, we eventually made a list of different kinds of nuts and filter them out. Also we made a `falsePositives` list where we would put in the different kinds of ingredients that did not contain any form of nuts, but in the word itself contained `noot` (i.e. Kokosnoot, Nootmuskaat). With those list we iterated over each recipe in the Allerhande dataset and looked if the ingredients contained anything that could be concidered a nut allergen.
+
+#### What is an average amount of calories for lunch and dinner combined?
+The average amount of the lunch and dinner combined for a day came out te be 1040 Kcal a day. This number was determined after looking at the following graphs and approach them with basic statistics:
+
+<details>
+<summary>Trello board example</summary>
+<img src="Images/Trello board image.png" />
+</details>
 
 
