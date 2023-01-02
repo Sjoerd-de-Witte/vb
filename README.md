@@ -170,11 +170,31 @@ The average amount of the lunch and dinner combined for a day came out te be 104
 </details>
 
 #### What method is used/can be used for predicting if someone likes a lunch or dinner?
-For the predictions we had to deal with a classification problem. So we chose to use the decision tree classifier for a predictive machine learning model. To use this we had to make binary dummyvariables for the ingredients used in a meal. We chose decesion tree classifier becuase compared to other models, this gave us a higher precision score. See table below:
+For the predictions we had to deal with a classification problem. So we chose to use the decision tree classifier for a predictive machine learning model. To use this we had to make binary dummyvariables for the ingredients used in a meal. We chose decision tree classifier becuase compared to other models, this gave us a higher overall score.
 
 <details>
 <summary>Model comparison</summary>
 <img src="Images/Foodboost Model comparison.png" />
 </details>
 
+Explain about hyperparameter tuning ....
 
+#### What method can be used to make a diet schedule with as much variety as possible?
+To schedule the lunches and dinners in a varied way, we used an linear programming model using the `ORTools.linear_solver` library. This model had a total of 4 restrictions.
+
+- It could fill in a maximum of 1040 Kcal a day for lunch and dinner combined 
+- It can use only 1 lunch a day
+- It can only use 1 dinner a day
+- It can only select a lunch or dinner once
+
+We dit not use any restrictions for maximum amount of calories for lunch and dinners separate, bequase we wanted to be flexible in our schedule so more lunched and dinners could be selected for the diet schedule. We made a plot showing the scheduling results of de linear programming model and the distrubution of the lunch and dinner Kcal earch day and the corresponding schedule:
+
+<details>
+<summary>Diet schedule</summary>
+<img src="Images/Foodboost diet schedule.png" />
+</details>
+
+<details>
+<summary>Lunch and dinner kcal distribution</summary>
+<img src="Images/Foodboost lunch and dinner distribution.png" />
+</details>
