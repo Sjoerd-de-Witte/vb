@@ -140,7 +140,7 @@ During this project, me and my group members mainly focussed on the a basis for 
 
     4. What method can be used to make a diet schedule with as much variety as possible?
 
-With question 1 we wanted to make sure that we could filter out every lunch/dinner that consisted of ingredients that contained or are a nut allergen. This was a big part of preocessing the data so no food with an nut allergen could be selected during the prediction for a doet schedule.
+With question 1 we wanted to make sure that we could filter out every lunch/dinner that consisted of ingredients that contained or are a nut allergen. This was a big part of processing the data so no food with an nut allergen could be selected during the prediction and making for a diet schedule.
 
 With question 2 we wanted to find out how many calories an average person ate during lunch and dinner combined. This would come in handy when we would schedule the predicted lunch and dinners a person would like. We ofcourse wanted this to be a healthy diet, so an maximum amount of calories would be a good restriction.
 
@@ -168,5 +168,10 @@ The average amount of the lunch and dinner combined for a day came out te be 104
 <summary>Statistical graphs</summary>
 <img src="Images/Foodboost Kcal Graphs.png" />
 </details>
+
+#### What method is used/can be used for predicting if someone likes a lunch or dinner?
+For the predictions we had to deal with a classification problem. So we chose to use the decision tree classifier for a predictive machine learning model. To use this we had to make binary dummyvariables for the ingredients used in a meal. We chose decesion tree classifier becuase compared to other models, this gave us a higher precision score. See table below:
+
+
 
 
