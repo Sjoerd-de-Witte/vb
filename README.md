@@ -12,6 +12,7 @@ In this portofolio, I will show the progress I made dureing the minor Applied Da
   - [Personel contribution to the projects](#personel-contribution-to-the-projects)
   - [Evaluation on group](#evaluation-on-group)
 - [The Projects](#the-projects) 
+  - [Foodboost project](#foodboost-project) 
 
 # <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
 * Introduction to Python  
@@ -154,5 +155,11 @@ The first point where there could be made a lot of inprovement is the prediction
 
 The second biggest point of improvement would be to make more restictions to the now used Linear Programming model. Right now the model give a diet schedule with more variety in lunches and dishes. It would be a great idea if there would be some research on the different kinds of kitchens around the world and also make it variate in that way. Since now we have a chance of having 7 kinds of pasta every week which makes sure that you will not eat the same dish every night, but not that you variate between different kitchens.
 
-### *Conclusions
+### Conclusions
+After 6 weeks we managed to give a awnser to our research question. As explained the research question was devided into 4 subquestions leading to the main awnser.
+
+#### What food can be considered as a nut allergen?
+one of the first things we did was searching on the internet for a list or table of different foods that where concidered a nut allergen. Eventually we came to the conclusion that we would filter out anything that had the word `noot` in it. This on itself is ofcouse is not this accurate, becuase you also would be filtering out words as kokos`noot` and `noot`muskaat. Also we decided to completely remove `pindas` out of the list, so there was no risk for somebody with any form of a nut allergy.
+
+
 
