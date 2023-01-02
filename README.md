@@ -337,5 +337,11 @@ In the following notebook I had a contribution to selecting the model by making 
 | KNeighborsClassifier   | 0.827586  | 0.857143 | 0.800000 | 0.716981 |
 </details>
 
-With this model comparison. We decided to investigate further on the precision score. This score is mainly foccussing on telling is something is a true positive. This means, in context of our project, that is focusses on predicting that if someone likes it according to the prediction, he really likes in in real life. And also I laid my eyes on the desicion tree classifier, because of the higher Precision score. 
+With this model comparison. We decided to investigate further on the `precision_score`. This score is mainly foccussing on telling is something is a true positive. This means, in context of our project, that is focusses on predicting that if someone likes it according to the prediction, he really likes in in real life. And also I laid my eyes on the desicion tree classifier, because of the higher `precision_score`. 
 
+Further more, I was focussing more on hyperparameter tuning using a optuna study. With the hyperparametertuning, I tuned the 3 most user parameters `max_depth`, `min_samples_leaf` and `n_estimators`.
+
+<details>
+<summary>Optuna study results</summary>
+<img src="Images/Containers satalite pictures.png" />
+</details>
