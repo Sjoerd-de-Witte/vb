@@ -204,3 +204,14 @@ We dit not use any restrictions for maximum amount of calories for lunch and din
 <summary>Lunch and dinner kcal distribution</summary>
 <img src="Images/Foodboost lunch and dinner distribution.png" />
 </details>
+
+### Planning
+Since this was our first time working with Trello for almost all of the group members, we had to get used to Trello. We tried to have a weekly meeting where we would discuss our tasks for the week where we would set deadlines for the tasksand document the the tasks into the Trello board. Eventualy this wasnt maintained during the Foodboost project, since some changes in our project had to me made fast and we lost focus on the Trello workstyle in the last couple of weeks.
+
+Never the less we all had our own tasks and we set the deadline of our tasks on the day of the external presentation. This seemed to be working since we had a model that worked suprisingly well. 
+
+<details>
+<summary>Foodboost Trello board</summary>
+<img src="Images/Foodboost planning trello.png" />
+</details>
+
