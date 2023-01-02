@@ -156,7 +156,7 @@ The first point where there could be made a lot of inprovement is the prediction
 
 The second biggest point of improvement would be to make more restictions to the now used Linear Programming model. Right now the model give a diet schedule with more variety in lunches and dishes. It would be a great idea if there would be some research on the different kinds of kitchens around the world and also make it variate in that way. Since now we have a chance of having 7 kinds of pasta every week which makes sure that you will not eat the same dish every night, but not that you variate between different kitchens.
 
-### Conclusions
+### *Conclusions*
 After 6 weeks we managed to give a awnser to our research question. As explained the research question was devided into 4 subquestions leading to the main awnser.
 
 #### What food can be considered as a nut allergen?
@@ -206,7 +206,7 @@ We dit not use any restrictions for maximum amount of calories for lunch and din
 <img src="Images/Foodboost lunch and dinner distribution.png" />
 </details>
 
-### Planning
+### *Planning*
 Since this was our first time working with Trello for almost all of the group members, we had to get used to Trello. We tried to have a weekly meeting where we would discuss our tasks for the week where we would set deadlines for the tasksand document the the tasks into the Trello board. Eventualy this wasnt maintained during the Foodboost project, since some changes in our project had to me made fast and we lost focus on the Trello workstyle in the last couple of weeks.
 
 Never the less we all had our own tasks and we set the deadline of our tasks on the day of the external presentation. This seemed to be working since we had a model that worked suprisingly well. 
@@ -218,3 +218,73 @@ Never the less we all had our own tasks and we set the deadline of our tasks on 
 
 ## <a id="Cofano-container-project"></a>Cofano container project
 ### *Task definition*
+
+...
+
+    With what method can we solve the container stacking problem using only one reachstacker and focussing only on unloading one ship with a random load? 
+
+    1. What methods are aviable to solve the container stacking problem?
+    
+    2. What is a move, and what are the restrictions?
+
+    3. What type of containers do we have to use?
+
+    4. How is the port layed out?
+    
+    5. How can we simulate container data
+
+With question 1 we ....
+
+With question 2 we ....
+
+With question 3 we ....
+
+With question 4 we ....
+
+With question 5 we ....
+
+### *Evaluation*
+For the container stacking problem we came up with a way to use reinforcement learning to make a layout for unloading the containers onto the dock. However we think there are a couple of good startingpoints for future research to improve this model, since we only got the tip of the iceberg here:
+
+The first thing for improvement is to expand the layout of the dock in the model. Right now the space in the model assumes there is a one level container space, but in reality it of course would be interresting to be able to fill in more layers.
+
+The second point of improvement is working the priorities of the containers. Right now we have attached 4 different kind of priorities to containers, but in the real world it would be nicer to implement more priorities and even container ID's to the problem to fill in the containers a efficient way. 
+
+The third thing I would recommend is using an operations research method to take in acount the driving time of the reachstacker. If you can find a way to also minimize the travelingtime of the reachstacker to a place on the dock, you can unload the ship faster which is more fanincially interresting. 
+
+The fourth thing I can suggest is applying different containers to the model en then use a different kind of measure to determine the placing zone restrictions for the model.
+
+The last thing I would recommend is implementing more reachstackers and or cranes, based on the availability of the port Cofano is working on. 
+
+### *Conclusions*
+The last 14 weeks we worked on the container stacking problem. Where we made a model that trains to make a layout on a dock using reinforcement learning. While doing this we used different research questions to achieve our goals. 
+
+#### What methods are aviable to solve the container stacking problem?
+For solving the container stacking problem we used a reinforcement learning model, which can train using its own generated data he got from previous experiences. The model uses an agend and enviroment. The model also make use of a Deep Q Network (DQN) algoritmn to solve each episode.
+
+#### What is a move, and what are the restrictions?
+A move is placing a container on the dock. The restictions are as follows:
+
+- We can only move one container at a time.
+- We can only pick up containers at the long sides. This means that we can only pick up containers at two sides on the dock.
+- A container van not be places on a empty space
+- A container stack can not be higher than 5 containers
+
+
+#### What type of containers do we have to use?
+We only use one size for a container. which means we don't have to worry about the exact sizes or types. 
+
+#### How is the port layed out?
+The port layout as follows:
+
+<details>
+<summary>Satellite pictures dock</summary>
+<img src="Containers satalite pictures.png" />
+</details>
+
+<details>
+<summary>Container zone mapping</summary>
+<img src="Containers container mapping.png" />
+</details>
+
+However we didn't use the layout since we decided to begin on a small scale and didn't have any time to expand the container zones in our model becuase of finetuning.
