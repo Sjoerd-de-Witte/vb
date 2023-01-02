@@ -172,6 +172,9 @@ The average amount of the lunch and dinner combined for a day came out te be 104
 #### What method is used/can be used for predicting if someone likes a lunch or dinner?
 For the predictions we had to deal with a classification problem. So we chose to use the decision tree classifier for a predictive machine learning model. To use this we had to make binary dummyvariables for the ingredients used in a meal. We chose decesion tree classifier becuase compared to other models, this gave us a higher precision score. See table below:
 
-
+<details>
+<summary>Model comparison</summary>
+<img src="Foodboost Model comparison" />
+</details>
 
 
