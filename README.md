@@ -401,13 +401,13 @@ For the cofano project I used the following documentation and information source
 
 </details>
 
-[Foodboost week 2](Notebooks/Selecting%20and%20Hyperparameter%20tuning%20model.ipynb).
+
 
 # <a id="data-preprocessing"></a>Data preprocessing 0%<!-- omit in toc -->
 
 # <a id="Communication"></a>Communication 0%<!-- omit in toc -->
 ## <a id="presentations"></a>Presentations
 
-
+[Foodboost week 2 (nog aanpassen)](Notebooks/Selecting%20and%20Hyperparameter%20tuning%20model.ipynb).
 
 ## <a id="paper"></a>The paper
