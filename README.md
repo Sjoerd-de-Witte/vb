@@ -17,7 +17,9 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 - [Predictive analytics](#predictive-analytics) 
   - [Foodboost model](#Foodboost-predictive-model) 
   - [Cofano model](#Cofano-predictive-model)
-
+- [Domain knowledge](#Domain-knowlegde)
+  - [Literature research](#literature-research)
+  
 # <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
 * Introduction to Python  
   [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/a0454797c8ede86d8947317d151dad4d9d4b299f)
@@ -363,3 +365,16 @@ The results of the total model:
 </details>
 
 ## <a id="Cofano-predictive-model"></a>Cofano predictive model
+
+# <a id="Domain-knowlegde"></a>Domain knowledge <!-- omit in toc -->
+The foodboost project is based in the nutrition field of research mixed with datascience. Luckaly, this subject field is on average not a very strict subject field if you are looking to the project we did. However, we did incorparate nut allergies into our research which means there are no rooms for error since a wrong filtering system could have serious concequenses for the person using the recommendation system. For our project, this also means that we really need to know the steps where the nut allergen filtering happens. The prediction part of our project doesn't have this strict rules since the worst thing that could happen is that someone doesn't like the food the system recommended.
+
+The Cofano project's subject field is based in the operations research mixed with data science. With this project, we had to make an effecient layout for the incoming containers from ships. This means that we have to set restrictions for our model based on a real life process. The main goal of this subject field is to make processes as efficient as possible, to make sure the probability of delay is reduced, and to make sure the costs of the process is minimalized. Within this subject field, gaining more efficiency from a model is key. So every feasable improvement is a win. However making the model feasable does contain some strict checks to make sure is really is possible.
+
+## <a id="literature-research"></a>Literature research
+
+### Foodboost literature
+
+For the foodboost project, I used this documentation to gain information for the project:
+- [Introduction to Machine Learning with Python by Sarah Guido](https://www.bol.com/nl/nl/p/introduction-to-machine-learning-with-python/9200000036116281/?bltgh=vxHmywO-ITJATpEgw-BLQQ.2_16.17.ProductTitle)
+- [OR tools library documentation](https://mlabonne.github.io/blog/linearoptimization/)
