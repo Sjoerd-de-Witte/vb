@@ -6,8 +6,8 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 * FoodBoost
 * Cofano Containers
 
-# <a id="contents"></a>Contents <!-- omit in toc -->
-- [Individual tasks and reflection](#contents)
+# <a id="contents"></a>Contents 80% done<!-- omit in toc -->
+- [Individual tasks and reflection](#"reflection")
   - [Datacamp certificates](#datacamp-certificates)
   - [Personel contribution to the projects](#personel-contribution-to-the-projects)
   - [Evaluation on group](#evaluation-on-group)
@@ -23,8 +23,9 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 - [Communication](#"Communication")
   - [Presentations](#"presentations")
   - [The paper](#"paper")
-  
-# <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
+
+# <a id="reflection"></a>Individual tasks and reflection 80% done (datacamp pictures and fill out Starr more)<!-- omit in toc -->
+## <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
 * Introduction to Python  
   [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/a0454797c8ede86d8947317d151dad4d9d4b299f)
 * Intermediate Python  
@@ -321,7 +322,7 @@ Every time we had a group meeting we asked anyone what the status of there task 
 
 [Back to contents](#contents)
 
-# <a id="predictive-analytics"></a>Predictive analytics <!-- omit in toc -->
+# <a id="predictive-analytics"></a>Predictive analytics 50% done <!-- omit in toc -->
 ## <a id="Foodboost-predictive-model"></a>Foodboost predictive model
 For the foodboost project we had to make a recommendation system that could recommend a certain variate diet. This problem concisted of a classification problem (in the for of 1, which means yes, and 0 which means no). The dataset we eventually used contained if someone liked a cetain meal. What the name was of the meal and what the ingredients where of that meal. The names in this situation where a string and where not used in the prediction model itself. The other variables where binary variables (like I said earlier). 
 
@@ -402,9 +403,9 @@ For the cofano project I used the following documentation and information source
 
 [Foodboost week 2](Notebooks/Selecting%20and%20Hyperparameter%20tuning%20model.ipynb).
 
+# <a id="data-preprocessing"></a>Data preprocessing 0%<!-- omit in toc -->
 
-
-# <a id="Communication"></a>Communication <!-- omit in toc -->
+# <a id="Communication"></a>Communication 0%<!-- omit in toc -->
 ## <a id="presentations"></a>Presentations
 
 
