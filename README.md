@@ -387,7 +387,9 @@ Since all algoritmns where capable of handeling all obervation space shapes. I h
 <img src="Images/Containers A2c en PPO Learning curve V2.png.png" />
 </details>
 
-Later I found out that PPO was a comcination of A2C (having more than 1 workers in the algoritmn) and TRPO(Which uses a trust region to improve the acting part of the model). So I decided to stick with the PPO algoritmn for the main algoritmn on my model.
+And see my expirimentation in my [notebook](Notebooks/_Reinforcement%20model%20Jesse%20containers.ipynb)
+
+Later I found out that PPO was a comcination of A2C (having more than 1 workers in the algoritmn) and TRPO(Which uses a trust region to improve the acting part of the model). So I decided to stick with the PPO algoritmn for the main algoritmn on my model. 
 
 
 
