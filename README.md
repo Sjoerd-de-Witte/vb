@@ -19,7 +19,7 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
   - [Cofano model](#Cofano-predictive-model)
 - [Domain knowledge](#Domain-knowlegde)
   - [Literature research](#literature-research)
-  - [Terminology, Jargon and Definitions]"terminology-jargon-and-definitions"
+  - [Terminology, Jargon and Definitions](#terminology-jargon-and-definitions)
 - [Communication](#"Communication")
   - [Presentations](#"presentations")
   - [The paper](#"paper")
@@ -355,7 +355,7 @@ Further more, I was focussing more on hyperparameter tuning using a optuna study
 
 Also I helped with predicting the data. I helped setting up and fitting a decision tree classifier with the chosen hyperparameter settings. which with the rest of the explained code can be checked in the corresponding [notebook](Notebooks/Selecting%20and%20Hyperparameter%20tuning%20model.ipynb).
 
-In the final version I linked the decicion tree model to the linear programming model. I took the initiative to make the liear programming model to further process the predictions of the decision tree model. I manage go generate a feasable outcome with the four restrictions I highlighted earlier. In the final [notebook](Notebooks/Final%20model%20Foodboost.ipynb).
+In the final version I linked the decicion tree model to the linear programming model. I took the initiative to make the liear programming model to further process the predictions of the decision tree model. I manage go generate a feasable outcome with the four restrictions I highlighted earlier. In the final [notebook](Notebooks/Final%20model%20Foodboost.ipynb). 
 
 The results of the total model:
 
@@ -370,6 +370,12 @@ The results of the total model:
 </details>
 
 ## <a id="Cofano-predictive-model"></a>Cofano predictive model
+
+For the Cofano project we decided to fully focus ourself on the reinforcement learning method. For this method I made an model myself using the [Stable Baseline 3 library](https://stable-baselines3.readthedocs.io/en/master/). I first wanted to have an introduction and used a [Youtube instruction video](https://www.youtube.com/watch?v=Mut_u40Sqz4&t=8980s) to do so. 
+
+With Stable baselines 3 and the video I managed to make an very basic balancing reinforcement model, which uses a shower temperature regulating model as seen in the shower model notbook . Later on I decided to transform the made model from the introduction video by changing the observation space (to a Box/Matrix), action space (to a Multidiscrete) and state of the model(to a Box/Matrix). With this I had to take in concideration that I had to look up what algoritmn I had to use within my model. The shapes of the previous mentions variables where of great influence on this choice.
+
+
 
 # <a id="Domain-knowlegde"></a>Domain knowledge <!-- omit in toc -->
 The foodboost project is based in the nutrition field of research mixed with datascience. Luckily, this subject field is on average not a very strict subject field if you are looking to the project we did. However, we did incorparate nut allergies into our research which means there are no rooms for error since a wrong filtering system could have serious concequenses for the person using the recommendation system. For our project, this also means that we really need to know the steps where the nut allergen filtering happens. The prediction part of our project doesn't have this strict rules since the worst thing that could happen is that someone doesn't like the food the system recommended.
