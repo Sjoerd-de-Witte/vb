@@ -6,7 +6,7 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 * FoodBoost
 * Cofano Containers
 
-# <a id="contents"></a>Contents 80% done<!-- omit in toc -->
+# <a id="contents"></a>Contents<!-- omit in toc -->
 - [Individual tasks and reflection](#"reflection")
   - [Datacamp certificates](#datacamp-certificates)
   - [Personel contribution to the projects](#personel-contribution-to-the-projects)
@@ -20,6 +20,9 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 - [Domain knowledge](#Domain-knowlegde)
   - [Literature research](#literature-research)
   - [Terminology, Jargon and Definitions](#terminology-jargon-and-definitions)
+- [Data preprocessing](#data-preprocessing)
+  - [Foodboost data](#foodboost-data)
+  - [Cofano data](#Cofano-data)
 - [Communication](#"Communication")
   - [Presentations](#"presentations")
   - [The paper](#"paper")
@@ -65,10 +68,10 @@ different libraries needed. This way I could provide usefull knowledge to the te
 
 ### **Making a reinforcement learning model by myself** 
 #### **Situation** 
-To gain knowlegde bout reinforcement learning and contribute to the project, we all had to make a reinforcement learning model by our own from scratch with our own unique method.  
+To gain knowlegde about reinforcement learning and contribute to the project, we all had to make a reinforcement learning model by our own from scratch with our own unique method.  
 
 #### **Task** 
-My task was to make an reinforcement learning model using a [tutorial](https://www.youtube.com/watch?v=Mut_u40Sqz4&t=8980s) I found on youtube, with the nessecary [documentation](https://stable-baselines3.readthedocs.io/en/master/).  
+My task was to make an reinforcement learning model using a [tutorial](https://www.youtube.com/watch?v=Mut_u40Sqz4&t=8980s) I found on youtube, with the nessecary [documentation](https://stable-baselines3.readthedocs.io/en/master/). 
 
 #### **Action**
 I watched the whole 3 hour tutorial on youtube to gain information about the used library. Then I made a custom environment on a easy problem that was demonstrated 
@@ -428,6 +431,14 @@ For the cofano project I used the following documentation and information source
 </details>
 
 # <a id="data-preprocessing"></a>Data preprocessing 0%<!-- omit in toc -->
+## <a id="foodboost-data"></a>Foodboost data
+- vertellen over eigen data creeeren
+
+
+## <a id="Cofano-data"></a>Cofano data
+For the Cofano data I first looked at the dataset. Since it was such a chaotic dataset I early decided to leavy the original Cofano dataset and first worked on my reinforcement learning model. While working on the model, I came to the conclusion that my reinforcement model made his own dataset based in its past 'experiences'. 
+
+This means that the model 
 
 # <a id="Communication"></a>Communication 0%<!-- omit in toc -->
 ## <a id="presentations"></a>Presentations
