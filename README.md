@@ -380,12 +380,16 @@ With Stable baselines 3 and the video I managed to make an very basic balancing 
 <img src="Images/Containers table of reinforcement learning algoritms.png" />
 </details>
 
-Since all algoritmns where capable of handeling all obervation space shapes. I had to make my choice based on the action space shape. Since only A2C and PPO could work with a MultiDiscrete action space, I did a little experiment with both of the algoritmns on the container problem. After running both the models I saw that the PPO algorithmn learned much better with filling in containers to non occupied places in the matrix over 10 timestamps. With this said I wanted to go with PPO as my algoritmn for learning. I did not however check the time to train both models.
+Since all algoritmns where capable of handeling all obervation space shapes. I had to make my choice based on the action space shape. Since only A2C and PPO could work with a MultiDiscrete action space, I did a little experiment with both of the algoritmns on the container problem. After running both the models I saw that the A2C algorithmn learned much better with filling in containers to non occupied places in the matrix over 57 seconds. With this said I wanted to go with A2C as my algoritmn for learning. You can see the learning curve for the 2 algoritmns here:
 
 <details>
-<summary>A2C and PPO learning curves during 10 feedback moments</summary>
-<img src="Images/Containers A2c en PPO Learning curve.png" />
+<summary>A2c en PPO Learning curve</summary>
+<img src="Images/Containers A2c en PPO Learning curve V2.png.png" />
 </details>
+
+Later I found out that PPO was a comcination of A2C (having more than 1 workers in the algoritmn) and TRPO(Which uses a trust region to improve the acting part of the model). So I decided to stick with the PPO algoritmn for the main algoritmn on my model.
+
+
 
 # <a id="Domain-knowlegde"></a>Domain knowledge <!-- omit in toc -->
 The foodboost project is based in the nutrition field of research mixed with datascience. Luckily, this subject field is on average not a very strict subject field if you are looking to the project we did. However, we did incorparate nut allergies into our research which means there are no rooms for error since a wrong filtering system could have serious concequenses for the person using the recommendation system. For our project, this also means that we really need to know the steps where the nut allergen filtering happens. The prediction part of our project doesn't have this strict rules since the worst thing that could happen is that someone doesn't like the food the system recommended.
