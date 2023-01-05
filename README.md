@@ -411,7 +411,7 @@ For the cofano project I used the following documentation and information source
 
 ## <a id="terminology-jargon-and-definitions"></a>Terminology, Jargon and Definitions
 <details>
-<summary>Model comparison</summary>
+<summary>List of definitions</summary>
 
 - Allergen: a specific type of nutrition that can cause allergic symptoms
 - Linear programming: A linear mathematical approach within the operations research that can be used to optimize certain processes 
