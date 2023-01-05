@@ -322,7 +322,7 @@ Every time we had a group meeting we asked anyone what the status of there task 
 
 [Back to contents](#contents)
 
-# <a id="predictive-analytics"></a>Predictive analytics 50% done <!-- omit in toc -->
+# <a id="predictive-analytics"></a>Predictive analytics 80% done <!-- omit in toc -->
 ## <a id="Foodboost-predictive-model"></a>Foodboost predictive model
 For the foodboost project we had to make a recommendation system that could recommend a certain variate diet. This problem concisted of a classification problem (in the for of 1, which means yes, and 0 which means no). The dataset we eventually used contained if someone liked a cetain meal. What the name was of the meal and what the ingredients where of that meal. The names in this situation where a string and where not used in the prediction model itself. The other variables where binary variables (like I said earlier). 
 
@@ -387,7 +387,7 @@ Later on I decided to transform the made model from the introduction video by ch
 Since all algoritmns where capable of handeling all obervation space shapes. I had to make my choice based on the action space shape. Since only A2C and PPO could work with a MultiDiscrete action space, I did a little experiment with both of the algoritmns on the container problem. After running both the models I saw that the A2C algorithmn learned much better with filling in containers to non occupied places in the matrix over 57 seconds. With this said I wanted to go with A2C as my algoritmn for learning. You can see the learning curve for the 2 algoritmns here:
 
 <details>
-<summary>A2c en PPO Learning curve</summary>
+<summary>A2C en PPO Learning curve</summary>
 <img src="Images/Containers A2c en PPO Learning curve V2.png" />
 </details>
 
@@ -421,10 +421,11 @@ For the cofano project I used the following documentation and information source
 - Move: A displacement of a container from one place to another
 - Reacher stacker: A reacher stacker is a vehicle used to move the containers of a ship
 - Restriction: A rule which the model has to apprehend.
+- Discrete space: an integer
+- Box Space: A matrix with integers or floats
+- Multidiscrete: A list of discrete numbers
 
 </details>
-
-
 
 # <a id="data-preprocessing"></a>Data preprocessing 0%<!-- omit in toc -->
 
