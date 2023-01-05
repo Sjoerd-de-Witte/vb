@@ -373,7 +373,11 @@ The results of the total model:
 
 For the Cofano project we decided to fully focus ourself on the reinforcement learning method. For this method I made an model myself using the [Stable Baseline 3 library](https://stable-baselines3.readthedocs.io/en/master/). I first wanted to have an introduction and used a [Youtube instruction video](https://www.youtube.com/watch?v=Mut_u40Sqz4&t=8980s) to do so. 
 
-With Stable baselines 3 and the video I managed to make an very basic balancing reinforcement model, which uses a shower temperature regulating model as seen in the shower model notbook . Later on I decided to transform the made model from the introduction video by changing the observation space (to a Box/Matrix) whith each valiable in the matrix served as a location where the containers could be placed, action space (to a MultiDiscrete) which served as coordinates to place a container into the matrix and state of the model(to a Box/Matrix). With this I had to take in concideration that I had to look up what algoritmn I had to use within my model. The shapes of the previous mentions variables where of great influence on this choice:
+With Stable baselines 3 and the video I managed to make an very basic balancing reinforcement model, which uses a shower temperature regulating model as seen in the shower model notebook:
+
+notebook(Notebooks/Reinforcement%20model%20Jesse%20shower.ipynb)
+
+Later on I decided to transform the made model from the introduction video by changing the observation space (to a Box/Matrix) whith each valiable in the matrix served as a location where the containers could be placed, action space (to a MultiDiscrete) which served as coordinates to place a container into the matrix and state of the model(to a Box/Matrix). With this I had to take in concideration that I had to look up what algoritmn I had to use within my model. The shapes of the previous mentions variables where of great influence on this choice:
 
 <details>
 <summary>Algoritmns with space requirements</summary>
@@ -387,11 +391,8 @@ Since all algoritmns where capable of handeling all obervation space shapes. I h
 <img src="Images/Containers A2c en PPO Learning curve V2.png.png" />
 </details>
 
-And see my expirimentation in my [notebook](Notebooks/_Reinforcement%20model%20Jesse%20containers.ipynb)
-
-Later I found out that PPO was a comcination of A2C (having more than 1 workers in the algoritmn) and TRPO(Which uses a trust region to improve the acting part of the model). So I decided to stick with the PPO algoritmn for the main algoritmn on my model. 
-
-
+And see my expirimentation in this notebook:
+[notebook](Notebooks/_Reinforcement%20model%20Jesse%20containers.ipynb)
 
 # <a id="Domain-knowlegde"></a>Domain knowledge <!-- omit in toc -->
 The foodboost project is based in the nutrition field of research mixed with datascience. Luckily, this subject field is on average not a very strict subject field if you are looking to the project we did. However, we did incorparate nut allergies into our research which means there are no rooms for error since a wrong filtering system could have serious concequenses for the person using the recommendation system. For our project, this also means that we really need to know the steps where the nut allergen filtering happens. The prediction part of our project doesn't have this strict rules since the worst thing that could happen is that someone doesn't like the food the system recommended.
