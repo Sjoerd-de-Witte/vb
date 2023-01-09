@@ -30,29 +30,65 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 # <a id="reflection"></a>Individual tasks and reflection 80% done (datacamp pictures and fill out Starr more)<!-- omit in toc -->
 ## <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
 * Introduction to Python  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/a0454797c8ede86d8947317d151dad4d9d4b299f)
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 1.png" />
+  </details>
 * Intermediate Python  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/7a84a520e49f07fe34c1c0b7767571c11474e03e)
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 2.png" />
+  </details>
 * Python Data Science Toolbox (Part 1)  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/8546b0726b05a5924b7009e0f7a21a82bd4aeeb9)
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 3.png" />
+  </details>
 * Python Data Science Toolbox (Part 2)  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/a323174cd6733c99b8e29fa1d6146ec78b97aa19)
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 4.png" />
+  </details>
 * Statistical Thinking in Python (Part 1)   
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/30e13c3a36703968b529f889e7cc07c2b58426da)
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 5.png" />
+  </details>
 * Machine Learning with scikit-learn  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/50cec0549b023167f8bcf6792666701bbf7cbfd9)
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 6.png" />
+  </details>
 * Linear Classifiers in Python  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/8ebed405edf024f626b5b59d3a9b0ad77c9dbbf6)
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 7.png" />
+  </details>
 * Introduction to Data Visualization with Matplotlib  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/707520704347d75821c06d39cdae920f70a0ce3d)
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 8.png" />
+  </details>
 * Model Validation in Python  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/d5cfc3fda5c53e3b45644f2943ce79689fe77025)
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 9.png" />
+  </details>
 * Data Manipulation with pandas  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/205a301957630cea15c1d3736de7277bb8420666)
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 10.png" />
+  </details>
 * Exploratory Data Analysis in Python  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/4aa6f96f4f810ec86df8f51fb2c00712cdb61a42)
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 11.png" />
+  </details>
 * Cleaning Data in Python  
-  [Certificate](https://www.datacamp.com/statement-of-accomplishment/course/cab5e798e60d4761baedec98cb38b88ba5152e02)  
+  <details>
+  <summary>Certificate</summary>
+  <img src="Images/Datacamp 12.png" />
+  </details> 
   
 ## <a id="personel-contribution-to-the-projects"></a>Personel contribution to the projects 
 At the beginning of this minor first tried to connect and bond with the group as much as possible to come up with a specific role for me.
