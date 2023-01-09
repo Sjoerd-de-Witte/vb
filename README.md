@@ -23,7 +23,7 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 - [Data preprocessing](#data-preprocessing)
   - [Foodboost data](#foodboost-data)
   - [Cofano data](#Cofano-data)
-- [Communication](#Communication)
+- [Communication](#communication)
   - [Presentations](#presentations)
   - [The paper](#paper)
 
@@ -473,7 +473,7 @@ For the Cofano data I first looked at the dataset. Since it was such a chaotic d
 
 This means that the model 
 
-# <a id="Communication"></a>Communication 0%<!-- omit in toc -->
+# <a id="communication"></a>Communication 0%<!-- omit in toc -->
 ## <a id="presentations"></a>Presentations
 
 [Foodboost week 2 (nog aanpassen)](Notebooks/Selecting%20and%20Hyperparameter%20tuning%20model.ipynb).
