@@ -473,9 +473,16 @@ For the Cofano data I first looked at the dataset. Since it was such a chaotic d
 
 This means that the model 
 
-# <a id="communication"></a>Communication 0%<!-- omit in toc -->
+# <a id="communication"></a>Communication 50%<!-- omit in toc -->
 ## <a id="presentations"></a>Presentations
 
-[Foodboost week 2](Notebooks/Selecting%20and%20Hyperparameter%20tuning%20model.ipynb).
+* [Foodboost week 2](Presentations/foodboost%20-%20Week%202.pptx)
+* [Foodboost week 4](Presentations/foodboost%20-%20week%204.pptx)
+* [Foodboost external presentation week 6](Presentations/foodboost%20-%20eindpresentatie%20Week%206.pptx)
+
+* [Container week 8](Presentations/container%20-%20Week%208.pptx)
+* [Container week 12](Presentations/container%20-%20Week%2012%20.pptx)
+* [Container week 14](Presentations/container%20-%20Week%2014.pptx)
+* [Container external presentation week 14](Presentations/container%20-%20eindpresentatie%20Week%2014.pptx)
 
 ## <a id="paper"></a>The paper
