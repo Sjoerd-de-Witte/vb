@@ -473,8 +473,17 @@ For the foodboost project one of my tasks was to orientate on the recommended am
 
 <details>
 <summary>Lunch and dinner kcal boxplot</summary>
-<img src="Images/Foodboost lunch and dinner distribution boxplot.png" />
+<img src="Images/Foodboost Kcal Graphs boxplot.png" />
 </details>
+
+As you can see, We only really had 2 outliers in the lunch calorie boxplot. We also see that the recommended amount of calories for a lunch lies between 450 and 500 Kcal. We see no clear outliers in the boxplot of the diner calories amount. Next up was to visualize the data for lunch and dinner separately. This time we used a barplot to have further insides on the distributions of the calories:
+
+<details>
+<summary>Lunch and dinner kcal distributions</summary>
+<img src="Images/Foodboost Kcal Graphs 2 graphs.png" />
+</details>
+
+Using this image we decided to take around 640 for dinner and around 400 for lunch. This of course was a guideline since we decided to be flexible in the amount of calories for lunch and dinner separate so that the model could get more options to fill in the schedules. 
 
 
 
