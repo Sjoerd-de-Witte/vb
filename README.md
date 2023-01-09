@@ -483,19 +483,12 @@ As you can see, We only really had 2 outliers in the lunch calorie boxplot. We a
 <img src="Images/Foodboost Kcal Graphs 2 graphs.png" />
 </details>
 
-Using this image we decided to take around 640 for dinner and around 400 for lunch. This of course was a guideline since we decided to be flexible in the amount of calories for lunch and dinner separate so that the model could get more options to fill in the schedules. 
+Using this image we decided to take around 640 for dinner and around 400 for lunch. This of course was a guideline since we decided to be flexible in the amount of calories for lunch and dinner separate so that the model could get more options to fill in the schedules. Our code could be seen below:
 
-
-
-
-- vertellen over eigen data creeeren
-
-
+[Notebook](Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb)
 
 ## <a id="Cofano-data"></a>Cofano data
-For the Cofano data I first looked at the dataset. Since it was such a chaotic dataset I early decided to leavy the original Cofano dataset and first worked on my reinforcement learning model. While working on the model, I came to the conclusion that my reinforcement model made his own dataset based in its past 'experiences'. 
 
-This means that the model 
 
 # <a id="communication"></a>Communication 50%<!-- omit in toc -->
 ## <a id="presentations"></a>Presentations
