@@ -469,7 +469,18 @@ For the cofano project I used the following documentation and information source
 
 # <a id="data-preprocessing"></a>Data preprocessing 0%<!-- omit in toc -->
 ## <a id="foodboost-data"></a>Foodboost data
+For the foodboost project one of my tasks was to orientate on the recommended amount of calories for lunches and dinners seperately. To define the maximum amount for both meals, Joanne and I searched around on the internet for a recommended amount of calories each day. Here I created a list with Joanne which containes these numbers in separate lists for linch and dinner. When these lists where made I made an boxplot for both recommended lunch and diner calories, zo we can see clearly how the calories where distributed:
+
+<details>
+<summary>Lunch and dinner kcal boxplot</summary>
+<img src="Images/Foodboost lunch and dinner distribution boxplot.png" />
+</details>
+
+
+
+
 - vertellen over eigen data creeeren
+
 
 
 ## <a id="Cofano-data"></a>Cofano data
