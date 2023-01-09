@@ -358,7 +358,7 @@ Every time we had a group meeting we asked anyone what the status of there task 
 
 [Back to contents](#contents)
 
-# <a id="predictive-analytics"></a>Predictive analytics 80% done <!-- omit in toc -->
+# <a id="predictive-analytics"></a>Predictive analytics <!-- omit in toc -->
 ## <a id="Foodboost-predictive-model"></a>Foodboost predictive model
 For the foodboost project we had to make a recommendation system that could recommend a certain variate diet. This problem concisted of a classification problem (in the for of 1, which means yes, and 0 which means no). The dataset we eventually used contained if someone liked a cetain meal. What the name was of the meal and what the ingredients where of that meal. The names in this situation where a string and where not used in the prediction model itself. The other variables where binary variables (like I said earlier). 
 
@@ -432,7 +432,7 @@ And see my expirimentation in this notebook:
 
 The next thing I did for the Cofano project was investigating if it was possible to use an CNN for our reinforcement learning model with Martti. With this model which is normally used to identify pictures, we wanted to use the tensors (which are normaly pixels in a image) as places for our containers. This could come in handy if you want to train a model where it can identify the different priority placement regions for the containers. And for the (normally used) RBG layers of a picture, we could fill in the different placement layers for the containers. In the notebook below, you can see that I made the CNN class. Here Martti and I experimented with the Conv2D (used for Images) and Conv3D (used for a sequence of images, or video) setups for the model. Further more I gave Martti some theoratical information about how to use a CNN and what all the different variables mean.
 
-[Notebook](Notebooks/_Reinforcement%20model%20Jesse%20containers.ipynb)
+[Notebook](Notebooks/CNN%20Reinforcement%20V2%20Row%20Environment.ipynb)
 
 # <a id="Domain-knowlegde"></a>Domain knowledge <!-- omit in toc -->
 The foodboost project is based in the nutrition field of research mixed with datascience. Luckily, this subject field is on average not a very strict subject field if you are looking to the project we did. However, we did incorparate nut allergies into our research which means there are no rooms for error since a wrong filtering system could have serious concequenses for the person using the recommendation system. For our project, this also means that we really need to know the steps where the nut allergen filtering happens. The prediction part of our project doesn't have this strict rules since the worst thing that could happen is that someone doesn't like the food the system recommended.
