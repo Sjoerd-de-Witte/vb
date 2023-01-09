@@ -23,11 +23,11 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 - [Data preprocessing](#data-preprocessing)
   - [Foodboost data](#foodboost-data)
   - [Cofano data](#Cofano-data)
-- [Communication](#"Communication")
-  - [Presentations](#"presentations")
-  - [The paper](#"paper")
+- [Communication](#Communication)
+  - [Presentations](#presentations)
+  - [The paper](#paper)
 
-# <a id="reflection"></a>Individual tasks and reflection 80% done (datacamp pictures and fill out Starr more)<!-- omit in toc -->
+# <a id="reflection"></a>Individual tasks and reflection<!-- omit in toc -->
 ## <a id="datacamp-certificates"></a>Datacamp certificates <!-- omit in toc -->
 * Introduction to Python  
   <details>
@@ -104,22 +104,19 @@ different libraries needed. This way I could provide usefull knowledge to the te
 
 ### **Making a reinforcement learning model by myself** 
 #### **Situation** 
-To gain knowlegde about reinforcement learning and contribute to the project, we all had to make a reinforcement learning model by our own from scratch with our own unique method.  
+To gain knowlegde about reinforcement learning and to make every group member more up to date to reinforcement learning, we all had to make a reinforcement learning model by our own from scratch with our own unique method.  This so some frustration within the group could be solved, and everybody could contribute an equal amount to the Cofano project. 
 
 #### **Task** 
-My task was to make an reinforcement learning model using a [tutorial](https://www.youtube.com/watch?v=Mut_u40Sqz4&t=8980s) I found on youtube, with the nessecary [documentation](https://stable-baselines3.readthedocs.io/en/master/). 
+My task was to make an reinforcement learning model using a [tutorial](https://www.youtube.com/watch?v=Mut_u40Sqz4&t=8980s) I found on youtube, with the nessecary [documentation](https://stable-baselines3.readthedocs.io/en/master/) within the four planned weeks.
 
 #### **Action**
-I watched the whole 3 hour tutorial on youtube to gain information about the used library. Then I made a custom environment on a easy problem that was demonstrated 
-in the Youtube tutorial. At last I changed the model to fit he COFANO problem.  
+I watched the whole 3 hour tutorial on youtube to gain information about the used library “Stable baselines 3”. While doing this, I made notations of all the theoretical matter that was discussed during the video. Meanwhile I also made the examples given my the video into the GPU Jupyter server. Later on I made a custom environment given by the video. This explained how to make a regulated temperature model for a shower. When I was done with that, I started applying the model to the Cofano project by changing the state space to a matrix (serving as the spaces a container could be placed), the action space to a multi discrete (with two integers serving as coordinates for placing a container) and observation spaces also to a matrix of the environment of the model. While doing this I realized I also had to look for the right algorithm to combine it with. I had to choose between two algoritmns (PPO and A2C). Eventually I chose PPO since this was a upgraded version of the A2C algoritmn.
 
 #### **Result**
-The result of my work was a working model that could place containers on places where there was no container. Also I gained very much knowledge about the used
-library. This was of great value to the work of my teammates and other groups of the minor.  
+The result of my actions where a very basic working model for a shower temperature regulating model and a container space filling model. The container model could actually fil in the empty spaces for containers in my environment. I also managed to gain a lot of information about how to use the  stable baselines 3 library and how to combine the different spaces with the right algoritmns of the library. I later on used it to share this information with my group for decision making and share it with other groups.
 
 #### **Reflection**
-I am glad that I made a working model that could place containers on empty spaced. The only thing I regret was nog really making an al tweakable agent where
-I could finetune the model even further.  
+I am glad that I worked out two models that contained reinforcement learning. This really helped me, the group and other groups with there further investigation. So I wouldn’t have done anything different regarding to gaining information. However I wasn’t really happy with the model, because I really wanted to expand it with more features like a priority list etc. 
 
 ## <a id="personel-learning-objectives"></a>Personel learning objectives
 When I started with the minor, I realy wanted to get an introduction to machine learning and neural networks and how to use them in diffenet situations.
