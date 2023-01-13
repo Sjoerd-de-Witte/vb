@@ -497,8 +497,12 @@ Next up I tried to see if all data needed to be transformed so it was workable f
 
 <details>
 <summary>Distribution image</summary>
-<img src="Images/Foodboost Kcal Graphs boxplot.png" />
+<img src="Images/Foodboost Distributions.png" />
 </details>
+
+So when I did this to the dataset I made my predictions. When I was done with my predictions for the amount of calories, I of course had to transform back my data to there original shape before the evaluation. You can see the entire datacleaning/processing here:
+
+[Notebook](Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb)
 
 ## <a id="Cofano-data"></a>Cofano data
 
