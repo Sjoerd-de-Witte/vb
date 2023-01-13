@@ -420,9 +420,16 @@ After the data preprocessing, I First decided to see how each model would do wit
 
 Overall the Linear Regression model was slightly better on the MSE and RMSE, but I decided to use the R2_score as a metric for evaluating the  model. On this metric Both models peformed the same, so I decided to use the Ridge model, since I already had a little experience with the ridge model.
 
-The next thing I did was hyperparametertuning the model on the hyperparameter alpha. For the hyperparametertuning I also used the optuna study. When I ran the optuna study and it was done. I made a plot to determine the best alpha for my model. This time it was a little harder to tell the right hyperparameter value, so I went with the value that semmed to be a little higher:
+The next thing I did was hyperparametertuning the model on the hyperparameter alpha. For the hyperparametertuning I also used the optuna study. When I ran the optuna study and it was done. I made a plot to determine the best alpha for my model. This time it was a little harder to tell the right hyperparameter value, so I went with the value that semmed to be a little higher (0.05):
 
+<details>
+<summary>Lunch and dinner kcal distribution</summary>
+<img src="Images/Foodboost hyperparameter tuning own experiment.png" />
+</details>
 
+In the end when I my decisionmaking was done, I fitted the predictive model to my dataset and predicted my testset. When I had the predicted values I quickly evaluated them by comparing them with the real values of the dataset. I was very glad with the results since the R2_score of my model come down to around 0.906. I thought this was a really great achievement! See the following notebook for the results:
+
+[Notebook](Notebooks/Foodboost%20datacleaning%20and%20model%20jesse.ipynb)
 
 ## <a id="Cofano-predictive-model"></a>Cofano predictive model
 
