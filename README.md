@@ -391,7 +391,7 @@ Further more, I was focussing more on hyperparameter tuning using a optuna study
 
 Also I helped with predicting the data. I helped setting up and fitting a decision tree classifier with the chosen hyperparameter settings. which with the rest of the explained code can be checked in the corresponding [notebook](Notebooks/Selecting%20and%20Hyperparameter%20tuning%20model.ipynb).
 
-In the final version I linked the decicion tree model to the linear programming model. I took the initiative to make the liear programming model to further process the predictions of the decision tree model. I manage go generate a feasable outcome with the four restrictions I highlighted earlier. In the final [notebook](Notebooks/Final%20model%20Foodboost.ipynb). 
+In the final version I linked the decicion tree model to the linear programming model. I took the initiative to make the linear programming model to further process the predictions of the decision tree model. I manage go generate a feasable outcome with the four restrictions I highlighted earlier. In the final [notebook](Notebooks/Final%20model%20Foodboost.ipynb). 
 
 The results of the total model:
 
@@ -404,6 +404,25 @@ The results of the total model:
 <summary>Lunch and dinner kcal distribution</summary>
 <img src="Images/Foodboost lunch and dinner distribution.png" />
 </details>
+
+I finally wanted to make a simple model on my own using the knowledge I gained on the Machine Learning lectures of my study. So I went making a model that could predict how many calories where in a certain meal, using the nutrition values of the given Allerhande dataset. 
+
+After the data preprocessing, I First decided to see how each model would do with a certain test and training set I created. For this, I also created a small table where I could see how great different models would predict with the given data. I choose between 2 different models (Ridge and Linear Regression). When I made my function, this table I got:
+
+<details>
+<summary>table of model performance</summary>
+
+| Model                  | MSE       | RMSE     | R2_score | 
+|------------------------|-----------|----------|----------|
+| Linear Regression      | 1.932859  | 1.390273 | 0.945735 |
+| Ridge                  | 1.932852  | 1.390270 | 0.945735 |
+</details>
+
+Overall the Linear Regression model was slightly better on the MSE and RMSE, but I decided to use the R2_score as a metric for evaluating the  model. On this metric Both models peformed the same, so I decided to use the Ridge model, since I already had a little experience with the ridge model.
+
+The next thing I did was hyperparametertuning the model on the hyperparameter alpha. For the hyperparametertuning I also used the optuna study. When I ran the optuna study and it was done. I made a plot to determine the best alpha for my model. This time it was a little harder to tell the right hyperparameter value, so I went with the value that semmed to be a little higher:
+
+
 
 ## <a id="Cofano-predictive-model"></a>Cofano predictive model
 
@@ -502,10 +521,12 @@ Next up I tried to see if all data needed to be transformed so it was workable f
 
 So when I did this to the dataset I made my predictions. When I was done with my predictions for the amount of calories, I of course had to transform back my data to there original shape before the evaluation. You can see the entire datacleaning/processing here:
 
-[Notebook](Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb)
+[Notebook](Notebooks/Foodboost%20datacleaning%20and%20model%20jesse.ipynb)
 
 ## <a id="Cofano-data"></a>Cofano data
+For the Cofano project, I didn't do to much of data preprocessing. I mainly focussed on getting information of reinforcement learning and how to use it. However I had to make sure that the environment was using the correct data so I could choose the right algorithm to go with it. So I first I decided to take a look at all the different shapes for the action, observation and state spaces. Then I decided for the Cofano project that I wanted to use a matrix to serve as the locations for the containers, and use the action space as a MultiDiscrete space. With this setup I could make the model choose some coordinates to place the containers. See the following notebook:
 
+[Notebook](Notebooks/_Reinforcement%20model%20Jesse%20containers.ipynb)
 
 # <a id="communication"></a>Communication 50%<!-- omit in toc -->
 ## <a id="presentations"></a>Presentations
