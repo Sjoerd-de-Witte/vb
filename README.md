@@ -487,6 +487,19 @@ Using this image we decided to take around 640 for dinner and around 400 for lun
 
 [Notebook](Notebooks/Statistiek%20op%20calorie%C3%ABn.ipynb)
 
+Eventually I wanted to walk the process of cleaning data and predicting all on my own. So I started with a simple predicting model to predict the amount of calories in a meal. I first took a look at the dataset to see in what form the dataset was. Then when I wass finished, I decided to make a workable dataframe out of it. This first seemed a little hard, but with a few tips of Joanne on how to flip the rows and columns I quickly figured it out. 
+
+The next thing I did was filling out all the NaN values in the list to 0. I thought this was a good idea becuase it would give a workable dataframe so I could get an inside of all the collumns without wasting to much data (which I could do by deleting the rows that contained an NaN value). Then I created a train and test sample, by splitting the dataframe in 2 Dataframes. The first 8000 rows would be part of my dataframe and the last 706 rows would be my testset.
+
+The next thing I did was figuring out what collumns had the biggest correlation with my Y value (energie in kcal). I did this my making using the a correlation function in python. So when I found my 3 most correlationg collumns, I started to look if any of those collumns had a correlation with each other. I decided to set the bar to a 0.6 correlation, becuase at the machine learning lectures of the 4th year of my study, I learned thet that was a good measure. Luckaly, all the 3 collumns did not have a high enough correlation to not take them for predicting
+
+Next up I tried to see if all data needed to be transformed so it was workable for the model. unfortunately all the data were not really normally distributed, so I decided to transform them all with a transformation they needed. For this I used a picture to determine what the original distribution was, to determine the transformation I had to use:
+
+<details>
+<summary>Distribution image</summary>
+<img src="Images/Foodboost Kcal Graphs boxplot.png" />
+</details>
+
 ## <a id="Cofano-data"></a>Cofano data
 
 
