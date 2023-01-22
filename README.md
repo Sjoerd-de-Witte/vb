@@ -431,6 +431,8 @@ In the end when I my decisionmaking was done, I fitted the predictive model to m
 
 [Notebook](Notebooks/Foodboost%20datacleaning%20and%20model%20jesse.ipynb)
 
+[Back to contents](#contents)
+
 ## <a id="Cofano-predictive-model"></a>Cofano predictive model
 
 For the Cofano project we decided to fully focus ourself on the reinforcement learning method. For this method I made an model myself using the [Stable Baseline 3 library](https://stable-baselines3.readthedocs.io/en/master/). I first wanted to have an introduction and used a [Youtube instruction video](https://www.youtube.com/watch?v=Mut_u40Sqz4&t=8980s) to do so. 
@@ -459,6 +461,8 @@ And see my expirimentation in this notebook:
 The next thing I did for the Cofano project was investigating if it was possible to use an CNN for our reinforcement learning model with Martti. With this model which is normally used to identify pictures, we wanted to use the tensors (which are normaly pixels in a image) as places for our containers. This could come in handy if you want to train a model where it can identify the different priority placement regions for the containers. And for the (normally used) RBG layers of a picture, we could fill in the different placement layers for the containers. In the notebook below, you can see that I made the CNN class. Here Martti and I experimented with the Conv2D (used for Images) and Conv3D (used for a sequence of images, or video) setups for the model. Further more I gave Martti some theoratical information about how to use a CNN and what all the different variables mean.
 
 [Notebook](Notebooks/CNN%20Reinforcement%20V2%20Row%20Environment.ipynb)
+
+[Back to contents](#contents)
 
 # <a id="domain-knowlegde"></a>Domain knowledge <!-- omit in toc -->
 The foodboost project is based in the nutrition field of research mixed with datascience. Luckily, this subject field is on average not a very strict subject field if you are looking to the project we did. However, we did incorparate nut allergies into our research which means there are no rooms for error since a wrong filtering system could have serious concequenses for the person using the recommendation system. For our project, this also means that we really need to know the steps where the nut allergen filtering happens. The prediction part of our project doesn't have this strict rules since the worst thing that could happen is that someone doesn't like the food the system recommended.
@@ -492,6 +496,8 @@ For the cofano project I used the following documentation and information source
 - Multidiscrete: A list of discrete numbers
 
 </details>
+
+[Back to contents](#contents)
 
 # <a id="data-preprocessing"></a>Data preprocessing<!-- omit in toc -->
 ## <a id="foodboost-data"></a>Foodboost data
@@ -535,6 +541,8 @@ For the Cofano project, I didn't do to much of data preprocessing. I mainly focu
 
 [Notebook](Notebooks/_Reinforcement%20model%20Jesse%20containers.ipynb)
 
+[Back to contents](#contents)
+
 # <a id="communication"></a>Communication<!-- omit in toc -->
 ## <a id="presentations"></a>Presentations
 
@@ -553,3 +561,5 @@ In the paper, I first helped Martti with writing a section about the method we u
 The next thing I did was giving Ayrton guidelines with writing the conclusion. Here I gave him some bullet points and structure for the conclusion part of the paper. After he wrote it down, I quickly checked the overall message.
 
 At last, I runned through the whole paper with Martti. Here I changed some alineas and words to give the paper an overall more fluent story. I also checked if the papers' information was all correct and changed it where ever it was needed.
+
+[Back to contents](#contents)
