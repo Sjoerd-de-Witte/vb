@@ -546,14 +546,14 @@ For the Cofano project, I didn't do to much of data preprocessing. I mainly focu
 # <a id="communication"></a>Communication<!-- omit in toc -->
 ## <a id="presentations"></a>Presentations
 
-* [Foodboost week 2](Presentations/foodboost%20-%20Week%202.pptx)
-* [Foodboost week 4](Presentations/foodboost%20-%20week%204.pptx)
-* [Foodboost external presentation week 6](Presentations/foodboost%20-%20eindpresentatie%20Week%206.pptx)
+* [Foodboost week 2](Presentations/foodboost%20-%20Week%202.pdf)
+* [Foodboost week 4](Presentations/foodboost%20-%20week%204.pdf)
+* [Foodboost external presentation week 6](Presentations/foodboost%20-%20eindpresentatie%20Week%206.pdf)
 
-* [Container week 8](Presentations/container%20-%20Week%208.pptx)
-* [Container week 12](Presentations/container%20-%20Week%2012%20.pptx)
-* [Container week 14](Presentations/container%20-%20Week%2014.pptx)
-* [Container external presentation week 14](Presentations/container%20-%20eindpresentatie%20Week%2014.pptx)
+* [Container week 8](Presentations/container%20-%20Week%208.pdf)
+* [Container week 12](Presentations/container%20-%20Week%2012%20.pdf)
+* [Container week 14](Presentations/container%20-%20Week%2014.pdf)
+* [Container external presentation week 14](Presentations/container%20-%20eindpresentatie%20Week%2014.pdf)
 
 ## <a id="paper"></a>The paper
 In the paper, I first helped Martti with writing a section about the method we used. Here I wrote about what reinforcement learning is and how it worked. I explained the basic principles of reinforcement learning and gave some examples of how it is used. Then I explained with Martti's help how the agent worked and how it corresponds with the used environment.
