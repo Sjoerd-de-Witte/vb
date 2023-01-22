@@ -7,7 +7,7 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 * Cofano Containers
 
 # <a id="contents"></a>Contents<!-- omit in toc -->
-- [Individual tasks and reflection](#"reflection")
+- [Individual tasks and reflection](#reflection)
   - [Datacamp certificates](#datacamp-certificates)
   - [Personel contribution to the projects](#personel-contribution-to-the-projects)
   - [Evaluation on group](#evaluation-on-group)
@@ -17,7 +17,7 @@ In this portofolio, I will show the progress I made during the minor Applied Dat
 - [Predictive analytics](#predictive-analytics) 
   - [Foodboost model](#Foodboost-predictive-model) 
   - [Cofano model](#Cofano-predictive-model)
-- [Domain knowledge](#Domain-knowlegde)
+- [Domain knowledge](#domain-knowlegde)
   - [Literature research](#literature-research)
   - [Terminology, Jargon and Definitions](#terminology-jargon-and-definitions)
 - [Data preprocessing](#data-preprocessing)
@@ -460,7 +460,7 @@ The next thing I did for the Cofano project was investigating if it was possible
 
 [Notebook](Notebooks/CNN%20Reinforcement%20V2%20Row%20Environment.ipynb)
 
-# <a id="Domain-knowlegde"></a>Domain knowledge <!-- omit in toc -->
+# <a id="domain-knowlegde"></a>Domain knowledge <!-- omit in toc -->
 The foodboost project is based in the nutrition field of research mixed with datascience. Luckily, this subject field is on average not a very strict subject field if you are looking to the project we did. However, we did incorparate nut allergies into our research which means there are no rooms for error since a wrong filtering system could have serious concequenses for the person using the recommendation system. For our project, this also means that we really need to know the steps where the nut allergen filtering happens. The prediction part of our project doesn't have this strict rules since the worst thing that could happen is that someone doesn't like the food the system recommended.
 
 The Cofano project's subject field is based in the operations research mixed with data science. With this project, we had to make an effecient layout for the incoming containers from ships. This means that we have to set restrictions for our model based on a real life process. The main goal of this subject field is to make processes as efficient as possible, to make sure the probability of delay is reduced, and to make sure the costs of the process is minimalized. Within this subject field, gaining more efficiency from a model is key. So every feasable improvement is a win. However making the model feasable does contain some strict checks to make sure is really is possible.
