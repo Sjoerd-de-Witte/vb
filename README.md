@@ -535,7 +535,7 @@ For the Cofano project, I didn't do to much of data preprocessing. I mainly focu
 
 [Notebook](Notebooks/_Reinforcement%20model%20Jesse%20containers.ipynb)
 
-# <a id="communication"></a>Communication 50%<!-- omit in toc -->
+# <a id="communication"></a>Communication<!-- omit in toc -->
 ## <a id="presentations"></a>Presentations
 
 * [Foodboost week 2](Presentations/foodboost%20-%20Week%202.pptx)
@@ -548,3 +548,8 @@ For the Cofano project, I didn't do to much of data preprocessing. I mainly focu
 * [Container external presentation week 14](Presentations/container%20-%20eindpresentatie%20Week%2014.pptx)
 
 ## <a id="paper"></a>The paper
+In the paper, I first helped Martti with writing a section about the method we used. Here I wrote about what reinforcement learning is and how it worked. I explained the basic principles of reinforcement learning and gave some examples of how it is used. Then I explained with Martti's help how the agent worked and how it corresponds with the used environment.
+
+The next thing I did was giving Ayrton guidelines with writing the conclusion. Here I gave him some bullet points and structure for the conclusion part of the paper. After he wrote it down, I quickly checked the overall message.
+
+At last, I runned through the whole paper with Martti. Here I changed some alineas and words to give the paper an overall more fluent story. I also checked if the papers' information was all correct and changed it where ever it was needed.
