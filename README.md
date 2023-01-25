@@ -436,7 +436,7 @@ The next thing I did was hyperparameter tuning the model on the hyperparameter a
 
 In the end, when my decision-making was done, I fitted the predictive model to my dataset and predicted my test set. When I had the predicted values I quickly evaluated them by comparing them with the real values of the dataset. I was very glad about the results since the R2_score of my model come down to around 0.906. I thought this was a great achievement! See the following notebook for the results:
 
-[Notebook](Notebooks/Foodboost%20datacleaning%20and%20model%20jesse.ipynb)
+[Notebook](Notebooks/Foodboost%20datacleaning%20jesse%20V2.ipynb)
 
 [Back to contents](#contents)
 
@@ -541,7 +541,7 @@ Next up I tried to see if all data needed to be transformed so it was workable f
 
 So when I did this to the dataset I made my predictions. When I was done with my predictions for the number of calories, I of course had to transform back my data to their original shape before the evaluation. You can see the entire data-cleaning/processing here:
 
-[Notebook](Notebooks/Foodboost%20datacleaning%20and%20model%20jesse.ipynb)
+[Notebook](Notebooks/Foodboost%20datacleaning%20jesse%20V2.ipynb)
 
 ## <a id="Cofano-data"></a>Cofano data
 For the Cofano project, I didn't do too much data preprocessing. I mainly focussed on getting information on reinforcement learning and how to use it. However, I had to make sure that the environment was using the correct data so I could choose the right algorithm to go with it. So first I decided to take a look at all the different shapes for the action, observation, and state spaces. Then I decided for the Cofano project that I wanted to use a matrix to serve as the locations for the containers, and use the action space as a MultiDiscrete space. With this setup, I could make the model choose some coordinates to place the containers. See the following notebook:
