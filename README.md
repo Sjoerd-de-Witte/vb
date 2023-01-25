@@ -565,7 +565,7 @@ For the Cofano project, I didn't do too much data preprocessing. I mainly focuss
 ## <a id="paper"></a>The paper
 In the paper, I first helped Martti with writing a section about the method we used. Here I wrote about what reinforcement learning is and how it worked. I explained the basic principles of reinforcement learning and gave some examples of how it is used. Then I explained with Martti's help how the agent worked and how it corresponds with the environment. We were then told by Tony that we didn't need to explain the principle of reinforcement learning since it was not our invention. So we decided to briefly mention the reinforcement principle.
 
-Later I made the discussion part of the paper. I thought this was quite challenging since I never wrote a paper. So I first read the results section of the paper and then asked a student who was familiar with writing papers for some tips. He then explained the way a discussion in a paper worked and I wrote the part
+Later I made the discussion part of the paper. I thought this was quite challenging since I never wrote a paper. So I first read the results section of the paper and then asked a student who was familiar with writing papers for some tips. He then explained the way a discussion in a paper worked and I wrote the part.
 
 The next thing I did was give Ayrton guidelines for writing the conclusion. Here I gave him some bullet points and structure for the conclusion part of the paper. After he wrote it down, I quickly checked the overall message.
 
