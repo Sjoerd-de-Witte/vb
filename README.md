@@ -571,6 +571,6 @@ The next thing I did was give Ayrton guidelines for writing the conclusion. Here
 
 At last, I ran through the whole paper with Martti. Here I changed some lines and words to give the paper an overall more fluent story. I also checked if the papers' information was all correct and changed it where ever it was needed.
 
-* [Paper](Paper/Paper%20Groep%205%20Cofano%20Containers.pdf)
+[Paper](Paper/Paper%20Groep%205%20Cofano%20Containers.pdf)
 
 [Back to contents](#contents)
