@@ -351,7 +351,7 @@ We created different kinds of categories within the Trello board so we had a cle
 
 Every time we had a group meeting we asked anyone what the status of their task was and immediately updated the Trello board. Also here, some tasks had deadlines and others were optional. I am more satisfied with the way we worked with Trello. I think, that the experience of the foodboost project was a big reason why it worked better this time.
 
-I also made an Excel project planning to give an overall view of the necessary steps we had to take during the project.
+We also made an Excel project planning to give an overall view of the necessary steps we had to take during the project.
 
 <details>
 <summary>Container Excel planning</summary>
