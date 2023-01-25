@@ -430,7 +430,7 @@ Overall the Linear Regression model was slightly better on the MSE and RMSE, but
 The next thing I did was hyperparameter tuning the model on the hyperparameter alpha. For the hyperparameter tuning, I also used the optuna study. When I ran the optuna study and it was done. I made a plot to determine the best alpha for my model. This time it was a little harder to tell the right hyperparameter value, so I went with the value that seemed to be a little higher (0.05):
 
 <details>
-<summary>Lunch and dinner kcal distribution</summary>
+<summary>Hyperparameter tuning on energy predicting model</summary>
 <img src="Images/Foodboost hyperparameter tuning own experiment.png" />
 </details>
 
